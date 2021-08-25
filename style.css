@@ -6,22 +6,48 @@ body {
 
 #digital-clock-area {
     font-family: 'Orbitron', sans-serif;
-    padding: 10% 0;
+    padding: 12% 0;
 }
 
 #digital-clock {
-    width: 750px;
-    height: 240px;
+    width: 700px;
+    height: 250px;
     border: 1.5rem solid white;
-    border-radius: 25px;
+    border-radius: 50px;
     margin: auto;
     font-size: 3em;
     text-align: center; 
     background-color: white;
     box-shadow: 0 0 25px #ffffff5d;
-    color: black;
+    color: #2c2828;
 }
+
 #clock {
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid black;
+    width: 620px;
+}
+
+#day-date {
+    display: flex;
+    width: 650;
+}
+
+#day {
+    width: 48%;
+    font-size: 0.6em;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+#date {
+    width: 48%;
+    font-size: 0.6em;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 60px;
 }
